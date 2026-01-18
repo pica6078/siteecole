@@ -160,10 +160,20 @@ h3 {
     margin: 0.5rem 0;
 }
 
+.header-logo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+/* ============================
+   Plus utilisé */
 .music-note {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
+/* ============================= */
 
 .highlight-box {
     background: #f0f4ff;
