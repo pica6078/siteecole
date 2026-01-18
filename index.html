@@ -1,0 +1,268 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chorale Harmonia - Ensemble Vocal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+            font-style: italic;
+        }
+
+        nav {
+            background: white;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #667eea;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            color: #764ba2;
+            background: #f0f0f0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        section {
+            background: white;
+            margin: 2rem 0;
+            padding: 2.5rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 3px solid #764ba2;
+            padding-bottom: 0.5rem;
+        }
+
+        .news-item {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border-left: 4px solid #667eea;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+
+        .news-item:hover {
+            background: #e9ecef;
+        }
+
+        .news-item h3 {
+            color: #764ba2;
+            margin-bottom: 0.5rem;
+        }
+
+        .news-date {
+            color: #6c757d;
+            font-size: 0.9rem;
+            font-style: italic;
+        }
+
+        .schedule-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .schedule-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .schedule-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .schedule-card p {
+            font-size: 1.1rem;
+            margin: 0.5rem 0;
+        }
+
+        .music-note {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            section {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="music-note">♪ ♫ ♪</div>
+        <h1>Chorale Harmonia</h1>
+        <p>La voix de notre communauté</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#presentation">Présentation</a></li>
+            <li><a href="#actualites">Actualités</a></li>
+            <li><a href="#horaires">Horaires</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="presentation">
+            <h2>Qui sommes-nous ?</h2>
+            <p>La Chorale Harmonia est un ensemble vocal passionné réunissant des chanteurs et chanteuses de tous niveaux. Fondée en 2015, notre chorale explore un répertoire varié allant de la musique classique aux chansons contemporaines, en passant par les gospels et les chants du monde.</p>
+            <p style="margin-top: 1rem;">Notre mission est de partager la joie du chant choral et de créer des moments musicaux inoubliables pour notre public. Que vous soyez débutant ou expérimenté, vous êtes les bienvenus pour nous rejoindre et vivre l'expérience enrichissante du chant en groupe.</p>
+            <p style="margin-top: 1rem;"><strong>Chef de chœur :</strong> Maëlle Dubois<br>
+            <strong>Nombre de choristes :</strong> 35 membres actifs</p>
+        </section>
+
+        <section id="actualites">
+            <h2>Actualités</h2>
+            
+            <div class="news-item">
+                <h3>Concert de Printemps - Save the Date !</h3>
+                <p class="news-date">15 janvier 2026</p>
+                <p>Nous sommes ravis de vous annoncer notre prochain concert de printemps qui aura lieu le samedi 15 mars 2026 à 20h à l'Église Saint-Pierre. Au programme : des œuvres de Mozart, Fauré et un medley de chansons françaises. Réservez dès maintenant votre soirée !</p>
+            </div>
+
+            <div class="news-item">
+                <h3>Nouveaux membres recherchés</h3>
+                <p class="news-date">8 janvier 2026</p>
+                <p>La Chorale Harmonia accueille de nouveaux choristes pour la saison 2026 ! Nous recherchons particulièrement des voix de ténor et de basse. N'hésitez pas à venir nous rencontrer lors d'une répétition pour découvrir notre ambiance chaleureuse.</p>
+            </div>
+
+            <div class="news-item">
+                <h3>Succès du Concert de Noël</h3>
+                <p class="news-date">20 décembre 2025</p>
+                <p>Un immense merci à tous ceux qui sont venus assister à notre concert de Noël ! Plus de 200 personnes ont répondu présentes pour partager ce moment magique. Merci également à tous nos choristes pour leur investissement et leur belle énergie.</p>
+            </div>
+        </section>
+
+        <section id="horaires">
+            <h2>Horaires des Répétitions</h2>
+            <p>Rejoignez-nous chaque semaine pour nos répétitions conviviales !</p>
+            
+            <div class="schedule-grid">
+                <div class="schedule-card">
+                    <h3>Mardi</h3>
+                    <p><strong>19h30 - 21h30</strong></p>
+                    <p>Répétition générale</p>
+                    <p>Salle polyvalente</p>
+                </div>
+
+                <div class="schedule-card">
+                    <h3>Jeudi</h3>
+                    <p><strong>18h00 - 19h30</strong></p>
+                    <p>Répétition par pupitre</p>
+                    <p>Salle de musique</p>
+                </div>
+
+                <div class="schedule-card">
+                    <h3>Samedi</h3>
+                    <p><strong>10h00 - 12h00</strong></p>
+                    <p>Atelier technique vocale</p>
+                    <p>(1 samedi par mois)</p>
+                </div>
+            </div>
+
+            <p style="margin-top: 2rem; text-align: center; font-style: italic;">
+                📍 Lieu : Centre culturel, 12 rue de la République<br>
+                📧 Contact : harmonia.chorale@email.fr<br>
+                📞 Téléphone : 01 23 45 67 89
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Chorale Harmonia - Tous droits réservés</p>
+        <p>Ensemble, faisons vibrer les cœurs par la musique ♪</p>
+    </footer>
+</body>
+</html>
