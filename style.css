@@ -202,7 +202,8 @@ h3 {
     object-fit: contain;
 }
 
-/* ============================
+/*
+===========================
    Plus utilisé suite à modif header
 (remplacé notes par image instruments)
 
@@ -210,7 +211,8 @@ h3 {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
-============================= */
+============================= 
+*/
 
 .highlight-box {
     background: #f0f4ff;
