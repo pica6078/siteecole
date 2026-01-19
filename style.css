@@ -45,7 +45,8 @@ header p {
 }
 
 
-/* ===========================
+/*
+===========================
 Plus utilisé (header sur fond bleu, sans image)
 
 header {
@@ -67,7 +68,8 @@ header p {
     opacity: 0.95;
     font-style: italic;
 }
-==================================== */
+==================================== 
+*/
 
 nav {
     background: white;
